@@ -14,10 +14,10 @@
  * to the MySQL database. Make sure the information is
  * correct.
  */
-define("DB_SERVER", "localhost");
-define("DB_USER", "root");
-define("DB_PASS", "devkhadka");
-define("DB_NAME", "agridata");
+define("DB_SERVER", "a.db.shared.orchestra.io");
+define("DB_USER", "user_de2dcf27");
+define("DB_PASS", "DwpK6A.@FpncQZ");
+define("DB_NAME", "db_de2dcf27");
 
 /**
  * Database Table Constants - these constants
