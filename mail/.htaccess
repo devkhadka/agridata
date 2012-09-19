@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mail.agricarenepal.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.mail.agricarenepal.com$
+RewriteRule ^/?$ "http\:\/\/www\.agricarenepal\.com\:2095\/horde\/index\.php" [R=301,L]
+

@@ -1,0 +1,57 @@
+23:41:13 [Post] mc_gross : 102.75
+23:41:13 [Post] protection_eligibility : Ineligible
+23:41:13 [Post] address_status : confirmed
+23:41:13 [Post] item_number1 : 
+23:41:13 [Post] tax : 0.00
+23:41:13 [Post] item_number2 : 
+23:41:13 [Post] payer_id : KX2TPACE93V9W
+23:41:13 [Post] item_number3 : 
+23:41:13 [Post] address_street : 1 Main St
+23:41:13 [Post] payment_date : 09:56:02 Nov 09, 2010 PST
+23:41:13 [Post] payment_status : Pending
+23:41:13 [Post] charset : windows-1252
+23:41:13 [Post] address_zip : 95131
+23:41:13 [Post] mc_shipping : 0.00
+23:41:13 [Post] mc_handling : 0.00
+23:41:13 [Post] first_name : Test
+23:41:13 [Post] mc_fee : 3.28
+23:41:13 [Post] address_country_code : US
+23:41:13 [Post] address_name : Test User
+23:41:13 [Post] notify_version : 3.0
+23:41:13 [Post] custom : 
+23:41:13 [Post] payer_status : verified
+23:41:13 [Post] business : dev_1284478733_biz@syntechnepal.com
+23:41:13 [Post] address_country : United States
+23:41:13 [Post] num_cart_items : 3
+23:41:13 [Post] mc_handling1 : 0.00
+23:41:13 [Post] mc_handling2 : 0.00
+23:41:13 [Post] mc_handling3 : 0.00
+23:41:13 [Post] address_city : San Jose
+23:41:13 [Post] verify_sign : AFjROi7NQURdQVn.OBo553qE7lvTAzjaN-M81wH2wBpcIWjMm16lOLSA
+23:41:13 [Post] payer_email : dev_1284478651_per@syntechnepal.com
+23:41:13 [Post] mc_shipping1 : 0.00
+23:41:13 [Post] mc_shipping2 : 0.00
+23:41:13 [Post] mc_shipping3 : 0.00
+23:41:13 [Post] txn_id : 5MU62306XA4309822
+23:41:13 [Post] payment_type : instant
+23:41:13 [Post] last_name : User
+23:41:13 [Post] address_state : CA
+23:41:13 [Post] item_name1 : Soccer Ball
+23:41:13 [Post] receiver_email : dev_1284478733_biz@syntechnepal.com
+23:41:13 [Post] item_name2 : Baseball Mitt
+23:41:13 [Post] payment_fee : 3.28
+23:41:13 [Post] item_name3 : Hockey Stick
+23:41:13 [Post] quantity1 : 2
+23:41:13 [Post] quantity2 : 1
+23:41:13 [Post] receiver_id : HGC28K39BMT7J
+23:41:13 [Post] pending_reason : paymentreview
+23:41:13 [Post] quantity3 : 1
+23:41:13 [Post] txn_type : cart
+23:41:13 [Post] mc_gross_1 : 50.00
+23:41:13 [Post] mc_currency : USD
+23:41:13 [Post] mc_gross_2 : 19.50
+23:41:13 [Post] mc_gross_3 : 33.25
+23:41:13 [Post] residence_country : US
+23:41:13 [Post] test_ipn : 1
+23:41:13 [Post] transaction_subject : Shopping Cart
+23:41:13 [Post] payment_gross : 102.75

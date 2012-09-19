@@ -1,0 +1,43 @@
+<?php
+include("../include/database.php");
+
+//session_start();
+//var_dump($_SESSION);
+
+$party_id = $_GET['party_id'];
+
+/*$data = $database->getPartyDue($name);
+
+if(is_array($data)){
+    echo $data[0]['amount'];
+}else{
+    echo $data;
+}*/
+
+$products = $database->getProduct();
+
+//print_r($products);
+
+$html = "<table width='90%'>";
+
+foreach($products as $count=>$product){
+    $html .= "<tr>";
+    $html .= "<td><b>".$product['name'] ." ". $product['quantity'] ." ".$product['unit_name']."</b><input type='hidden' name='product_id{$count}' value='{$product['id']}'/></td>";
+    $html .= "</tr>";
+//    echo $product['id'];
+    $stock = $database->getPartyStock($party_id,$product['id']);
+    if(is_array($stock) && count($stock)){
+        $html .= "<tr><td>Stock : </td>";
+        $html.= "<td>".$stock[0]['no_of_case']." case / ".$stock[0]['indivisual']." pcs. </td>
+            </tr>";
+    }else{
+        $html .= "<tr><td>Stock : </td><td>0 case / 0 pcs. </td></tr>";
+    }
+    $html .= "<tr><td style='width:8%'>Plan : </td><td><input type='text' name='plan_case{$count}' size='5' /> case / <input type='text' name='plan_individual{$count}' size='5'/> pcs.</td></tr>";
+    $html .= "<tr><td>Discount : </td><td><input type='text' name='discount_case{$count}' size='5' /> case / <input type='text' name='discount_individual{$count}' size='5'/> pcs.</td></tr>";
+//    $html .= "<tr><hr></td></tr>";
+}
+
+$html .= "</table><div><input type='hidden' name='add'><input type='hidden' name='count' value='{$count}' /></div>";
+echo $html;
+?>

@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^webmail.agricarenepal.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www.webmail.agricarenepal.com$
+RewriteRule ^/?$ "http\:\/\/www\.agricarenepal\.com\:2095\/3rdparty\/roundcube\/\?_task\=mail" [R=301,L]
+

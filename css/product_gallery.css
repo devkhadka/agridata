@@ -1,0 +1,49 @@
+body {
+	background-color: #FFFFFF;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+.product_list {
+	list-style-type: none;
+}
+.product_list li {
+	float: left;
+	margin-right: 6px;
+	margin-bottom: 10px;
+	font: bold 0.8em Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+.product_list img {
+	display: block;
+	border: 1px solid #333300;
+}
+.product_list_block
+{
+display:block;
+clear:both;
+border:1px;
+background-color:#F1E9EF;
+margin-bottom:30px;
+
+}
+.product_list_block h1
+{
+display:block;
+
+font:bold 1.8em Arial, Helvetica, sans-serif;
+}
+
+.product_list_block h2
+{
+text-align:center;
+color:#4A3008;
+font:bold 1.3em Arial, Helvetica, sans-serif;
+
+}
+.product_list_block ul
+{
+background-color:#F1E9EF;
+
+
+}
